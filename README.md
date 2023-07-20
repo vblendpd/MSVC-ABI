@@ -18,6 +18,8 @@ Each chapter will be made available as a separate markdown file:
 ...\
 ...
 
+The material presented here is specific for Microsoft Windows using Visual Studio C++ compiler and x86 architecture. The content focuses on 64-bit binaries reporting differences against 32-bit counterparts whenever possible. This article assumes you're familiar with the Visual Studio environment and have some command of Assembly language and hardware architecture.
+
 ###### PREFACE
 Each Assembly code fragment is taken from a 64-bit Release build with optimization and stack security check disabled. The reason to turn off optimization for Release build is solely for educational purposes, not a good practice in production code because it prevents the compiler from performing compile-time calculations and dozens of other things. Although most of the upcoming examples seem quite complex from an Assembly standpoint, they're quite simple instead. Eventually, the compiler will remove a function call entirely. We don't want that for now because we need to analyze step by step how parameters are propagated to functions and other details. We'll turn on optimization whenever they won't be relevant for the current topic. For now, in order to generate the similar machine code you'll see through the article, you need to turn off `Optimization` and `Inline Function Expansion` from the project settings:
 ```
