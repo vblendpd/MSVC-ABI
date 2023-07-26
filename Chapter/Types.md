@@ -388,6 +388,7 @@ float f = 3.1415926535;
 ```
 The compiler will warn about the truncation that may cause a loss of information. If the value cannot be represented (due to the encoding constraints), the same value is rounded to next or previous representable value.
 > For more information about IEEE-754 floating-point encoding please check proper documentation.
+
 Conversion from floating-point to integral types:
 ```cpp
 char c = 97.99f;
