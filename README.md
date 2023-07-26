@@ -15,6 +15,7 @@ Exception Handling
 Each chapter will be made available as a separate markdown file:
 
 [Stack](Chapter/Stack.md)\
+[Built-in Types](Chapter/Types.md)\
 ...\
 ...
 
