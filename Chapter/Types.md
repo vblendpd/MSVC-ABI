@@ -326,7 +326,7 @@ Suffixes can be used to instruct the compiler to treat numerical literals differ
 `i8`  `I8`   = char\
 `i16` `I16`  = short\
 `i32` `I32`  = int\
-`i64` `I64`  = long long\
+`i64` `I64`  = long long
 
 Once again, there is no way to define a `short` literal in standard C++. Suffixes `iN` are Microsoft-specific and not much used. A suffix can be specified in either upper-case or lower-case, some of them in different order too:
 ```cpp
