@@ -1,3 +1,5 @@
+> Part of MSVC-ABI [Article](https://github.com/vblendpd/MSVC-ABI)
+
 ### NAME MANGLING
 Name mangling (often referred to as symbol decoration) is a technique that encodes extra information into symbol names to make them unique for the compiler and linker. The evolution of the C++ language has led to an inevitable increase in the complexity of the toolset. C++ functions, unlike those in C, belong to various entities such as classes or namespaces. Things get even more complicated with overloading, inheritance, templates, and so on. A typical case that requires function names to be decorated is function overloading. Function overloading is the feature that permits multiple functions with the same name to coexist, as long as they have different parameter lists. Since the name alone does not uniquely identify a function, additional information (e.g., function parameters) is encoded together to create the ASCII string for the corresponding symbol name. That symbol name will be used by the linker to resolve references, among other things. Example:
 ```C++
