@@ -18,6 +18,7 @@ Each chapter will be made available as a separate markdown file:
 [Built-in Types](Chapter/Types.md)\
 [Data Alignment and Packing](Chapter/Alignment.md)\
 [64-bit Calling Conventions](Chapter/callingc.md)\
+[One Definition Rule](Chapter/odr.md)\
 [Name Mangling](Chapter/nmangling.md)\
 ...\
 ...
