@@ -1,3 +1,5 @@
+> Part of MSVC-ABI [Article](https://github.com/vblendpd/MSVC-ABI)
+
 ### CALLING CONVENTIONS
 A calling convention is a binary protocol (or a set of rules) that describes how function calls are implemented at the low level. Functions are called procedures in Assembly language. When translating from C++ to machine code, the compiler uses this set of rules to pass arguments to the child function (callee), return values to the parent (caller), restore execution after the call site, and so on.
 
